@@ -5,6 +5,16 @@
 */
 
 (function($) {
+	// ANIMATED
+	$(".avatar").mouseenter(function(){
+        $('.avatar').addClass("jello");
+    });
+    $(".avatar").mouseleave(function(){
+        $('.avatar').removeClass("jello");
+	});
+	$("#one").mouseenter(function(){
+        $('#one h2').addClass("animated tada");
+    });
 
 	var settings = {
 
